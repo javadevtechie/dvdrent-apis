@@ -32,7 +32,7 @@ import com.model.rental.tables.Store;
 
 import java.math.BigDecimal;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.Configuration;
 import org.jooq.Field;

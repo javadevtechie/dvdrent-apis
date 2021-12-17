@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.6.1'
+	id 'org.springframework.boot' version "2.2.4.RELEASE"
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 	id 'nu.studer.jooq' version '4.1'
@@ -13,7 +13,7 @@ repositories {
 	mavenCentral()
 }
 jooq {
-    generateSchemaSourceOnCompilation = true
+    generateSchemaSourceOnCompilation = false
     v1(sourceSets.main) {
         jdbc {
             driver = 'org.postgresql.Driver'
@@ -46,11 +46,16 @@ jooq {
 }
 
 dependencies {
+   
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.7.0'
 	implementation "org.springframework.boot:spring-boot-starter-jooq"
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.3.1'
  	jooqRuntime "org.postgresql:postgresql:42.3.1"
  	implementation 'org.springframework.boot:spring-boot-starter-web'
+ 	implementation "org.springframework.boot:spring-boot-starter-jdbc"
+ 	
 }
 
 test {

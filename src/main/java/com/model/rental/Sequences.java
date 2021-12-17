@@ -4,9 +4,7 @@
 package com.model.rental;
 
 
-
-
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.Sequence;
 import org.jooq.impl.SequenceImpl;

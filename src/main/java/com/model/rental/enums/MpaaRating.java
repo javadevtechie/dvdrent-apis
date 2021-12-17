@@ -6,7 +6,7 @@ package com.model.rental.enums;
 
 import com.model.rental.DefaultSchema;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.Catalog;
 import org.jooq.EnumType;

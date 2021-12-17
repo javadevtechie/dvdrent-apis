@@ -9,7 +9,7 @@ import com.model.rental.DefaultSchema;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.Field;
 import org.jooq.Parameter;

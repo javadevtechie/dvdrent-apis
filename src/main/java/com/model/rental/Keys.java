@@ -21,7 +21,7 @@ import com.model.rental.tables.RewardsReport;
 import com.model.rental.tables.Staff;
 import com.model.rental.tables.Store;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.ForeignKey;
 import org.jooq.Identity;
