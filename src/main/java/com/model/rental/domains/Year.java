@@ -4,7 +4,7 @@
 package com.model.rental.domains;
 
 
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 
 
 /**

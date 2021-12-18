@@ -9,7 +9,7 @@ import com.model.rental.enums.MpaaRating;
 
 import java.math.BigDecimal;
 
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 
 import org.jooq.Field;
 import org.jooq.ForeignKey;

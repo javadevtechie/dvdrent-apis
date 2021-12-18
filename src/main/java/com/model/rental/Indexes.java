@@ -20,7 +20,7 @@ import com.model.rental.tables.Rental;
 import com.model.rental.tables.Staff;
 import com.model.rental.tables.Store;
 
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 
 import org.jooq.Index;
 import org.jooq.OrderField;

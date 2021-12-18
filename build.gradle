@@ -4,7 +4,8 @@ plugins {
 	id 'java'
 	id 'nu.studer.jooq' version '4.1'
 }
-
+def springfoxVersion = '3.0.0'
+def springfoxUiVersion = '2.9.2'
 group = 'com.ded.rental'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
@@ -47,8 +48,8 @@ jooq {
 
 dependencies {
    
-	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
-    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.7.0'
+    compile "io.springfox:springfox-swagger2:3.0.0"
+    compile "io.springfox:springfox-swagger-ui:2.9.2"
 	implementation "org.springframework.boot:spring-boot-starter-jooq"
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.3.1'
