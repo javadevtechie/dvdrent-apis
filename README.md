@@ -1,10 +1,11 @@
 # DVD Rental API's
 
 Used technologies
-1. Spring boot
-2. jooq framework
-3. Springdata jpa
-4. postgres
+1. Java
+2. Spring boot
+3. jooq framework
+4. Springdata jpa
+5. postgres
 
 ## Gradle setting 
 Here we need to do additional settings in-order to support jooq plugin 
