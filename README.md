@@ -6,9 +6,9 @@ Used technologies
 3. Springdata jpa
 4. postgres
 
-Gradle setting
+##Gradle setting 
 Here we need to do additional settings in-order to support jooq plugin 
-
+```java
 plugins {
 	id 'org.springframework.boot' version "2.2.4.RELEASE"
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
@@ -55,6 +55,7 @@ jooq {
             }
         }
     }
+    ```
 }
 
 dependencies {
