@@ -6,7 +6,7 @@ Used technologies
 3. Springdata jpa
 4. postgres
 
-##Gradle setting 
+## Gradle setting 
 Here we need to do additional settings in-order to support jooq plugin 
 ```java
 plugins {
