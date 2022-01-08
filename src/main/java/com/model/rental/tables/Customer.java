@@ -85,7 +85,7 @@ public class Customer extends TableImpl<Record> {
     /**
      * The column <code>customer.address_id</code>.
      */
-    public final TableField<Record, Short> ADDRESS_ID = createField(DSL.name("address_id"), org.jooq.impl.SQLDataType.SMALLINT.nullable(false), this, "");
+    public final TableField<Record, Integer> ADDRESS_ID = createField(DSL.name("address_id"), org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
      * The column <code>customer.activebool</code>.

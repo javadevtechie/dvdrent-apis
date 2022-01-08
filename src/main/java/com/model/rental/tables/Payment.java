@@ -65,7 +65,7 @@ public class Payment extends TableImpl<Record> {
     /**
      * The column <code>payment.customer_id</code>.
      */
-    public final TableField<Record, Short> CUSTOMER_ID = createField(DSL.name("customer_id"), org.jooq.impl.SQLDataType.SMALLINT.nullable(false), this, "");
+    public final TableField<Record, Integer> CUSTOMER_ID = createField(DSL.name("customer_id"), org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
      * The column <code>payment.staff_id</code>.

@@ -69,7 +69,7 @@ public class City extends TableImpl<Record> {
     /**
      * The column <code>city.country_id</code>.
      */
-    public final TableField<Record, Short> COUNTRY_ID = createField(DSL.name("country_id"), org.jooq.impl.SQLDataType.SMALLINT.nullable(false), this, "");
+    public final TableField<Record, Integer> COUNTRY_ID = createField(DSL.name("country_id"), org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
      * The column <code>city.last_update</code>.

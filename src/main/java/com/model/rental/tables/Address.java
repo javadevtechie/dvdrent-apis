@@ -79,7 +79,7 @@ public class Address extends TableImpl<Record> {
     /**
      * The column <code>address.city_id</code>.
      */
-    public final TableField<Record, Short> CITY_ID = createField(DSL.name("city_id"), org.jooq.impl.SQLDataType.SMALLINT.nullable(false), this, "");
+    public final TableField<Record, Integer> CITY_ID = createField(DSL.name("city_id"), org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
      * The column <code>address.postal_code</code>.
